@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Group id="info" class="components.Info" touchThrough="true" minWidth="450" height="100%" width="100%" visible="false" xmlns:e="http://ns.egret.com/eui" xmlns:c="components.*"  verticalCenter="0" horizontalCenter="0" >
+   <!-- verticalCenter="0" 縱軸置中  horizontalCenter="0" 橫軸置中 兩個一起用就是水平置中-->
+   <e:Image source="resource/assets/whiteBg.png"   left="0" right="0" top="0" bottom="0" alpha="0.8" />
+   <e:Group id="gameInfo" top="15">
+        <e:layout>
+            <e:VerticalLayout  gap="10" paddingLeft="10" paddingTop="30" horizontalAlign="left" verticalAlign ="middle"/>
+        </e:layout>
+        <e:Label text="遊戲說明(Game Introduction)" textColor="0xFF0000" size="50"/>
+        <e:Group width="100%" height="100%" minWidth="1800" minHeight="700" id="infoContent">
+            <e:layout>
+                <e:HorizontalLayout  gap="10" paddingLeft="10"  horizontalAlign="left" verticalAlign ="top"/>
+            </e:layout>
+            <e:ViewStack id="viewStack" width="100%" height="100%" verticalCenter="0" left="10">
+                <e:layout>
+                    <e:VerticalLayout gap="15" horizontalAlign="left" verticalAlign ="top"/>
+                </e:layout>
+                <e:Group name="gameInfo" width="100%" height="100%">
+                    <e:Image source="resource/assets/blackBg.png"   left="0" right="0" top="0" bottom="0" alpha="0.8" />
+                    <e:Label text="操作說明(Game Info)" top="20"  textColor="0xffffff" size="40"/>
+                    <e:Group width="100%" height="100%">
+                        <e:layout>
+                            <e:VerticalLayout paddingLeft="10" gap="20" horizontalAlign="left" verticalAlign ="middle"/>
+                        </e:layout>
+                        <e:Image source="resource/assets/panelInfo.png"   />
+                        <e:Label text="1.黃色框為玩家餘額。Yellow block is player balance" textColor="0xfff200" size="35" />
+                        <e:Label text="2.綠色框為下注注碼。Green block is bet button" textColor="0x22b14c" size="35" />
+                        <e:Label text="3.藍色框為遊戲訊息。Blue block is game information bar" textColor="0x00a2e8" size="35" />
+                        <e:Label text="4.紅色框為拉霸。Red block is slot bar" textColor="0xf25a5f" size="35" />
+                        <e:Label text="先點擊下注金額後，就可以開始遊玩 Click on the bet button to start playing." textColor="0xffffff" size="35" />
+                    </e:Group>
+                </e:Group>
+                <e:Group name="gameRule" width="100%" height="100%">
+                     <e:Image source="resource/assets/blackBg.png" width="100%" height="100%"  left="0" right="0" top="0" bottom="0" alpha="0.8" />
+                    <e:Label text="遊戲規則(Game Rules)"  top="20" textColor="0xffffff" size="40"/>
+                    <e:Group id="paylineContent" top="70" width="100%" maxWidth="1600">
+                        <e:layout>
+                            <e:VerticalLayout paddingLeft="10" gap="10" horizontalAlign="left" verticalAlign ="middle"/>
+                        </e:layout>
+                        <e:Label text="連線種類(Pay Lines)"  textColor="0xffffff" size="35"/>
+                        <e:Group id="payline" maxWidth="1600">
+                            <e:layout>
+                                <e:HorizontalLayout  gap="10" paddingLeft="10"  horizontalAlign="center" verticalAlign ="top"/>
+                            </e:layout>
+                            <e:Group id="payLineBox1" width="100%" maxWidth="300">
+                                <e:layout>
+                                    <e:VerticalLayout paddingLeft="10" gap="10"  horizontalAlign="center" verticalAlign ="middle"/>
+                                </e:layout>
+                                <e:Image source="resource/exml/image/payLine1.png" width="100%" height="50%" />
+                                <e:Label text="1" textColor="0xffffff" size="30" />
+                            </e:Group>
+                            <e:Group id="payLineBox2" width="100%"  maxWidth="300">
+                                <e:layout>
+                                    <e:VerticalLayout paddingLeft="10" gap="10" horizontalAlign="center" verticalAlign ="middle"/>
+                                </e:layout>
+                                <e:Image source="resource/exml/image/payLine2.png"  width="100%" height="50%" />
+                                <e:Label text="2" textColor="0xffffff" size="30" />
+                            </e:Group>
+                            <e:Group id="payLineBox3" width="100%" maxWidth="300">
+                                <e:layout>
+                                    <e:VerticalLayout paddingLeft="10" gap="10" horizontalAlign="center"  verticalAlign ="middle"/>
+                                </e:layout>
+                                <e:Image source="resource/exml/image/payLine3.png"  width="100%" height="50%" />
+                                <e:Label text="3" textColor="0xffffff" size="30" />
+                            </e:Group>
+                        </e:Group>
+                       
+                    </e:Group>
+                </e:Group>
+            </e:ViewStack>
+            <c:TabBar dataProvider="{viewStack}"/>
+        </e:Group>
+   </e:Group>
+    <e:Group id="refInfo" bottom="15">
+        <e:layout>
+            <e:VerticalLayout  gap="15" paddingLeft="10" paddingTop="50" horizontalAlign="left" verticalAlign ="middle"/>
+        </e:layout>
+       <e:Label text="素材來源(Source of material)"  textColor="0xFF0000" size="30"/>
+       <e:Label text="Icon made by [author link] from www.flaticon.com  E.g.:  Icon made by Freepik from www.flaticon.com"  textColor="0x000000" size="24"/>
+       <e:Label text="spin_coin:https://mantastic001.deviantart.com/art/Spinning-Coin-animation-176724503"  textColor="0x000000" size="24"/>
+       <e:Label text="懒人图库" textColor="0x000000" size="24" />
+       <e:Label text="123rf.com" textColor="0x000000" size="24"/>
+    </e:Group>
+    <c:CloseButton width="100" height="100" right="10"  top="10" />
+</e:Group>

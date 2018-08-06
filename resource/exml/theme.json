@@ -1,0 +1,22 @@
+{
+    "skins": {
+        "eui.Button": "resource/exml/Btn.exml"
+    },
+    "exmls":[
+      "resource/exml/CloseButton.exml",
+      "resource/exml/Btn.exml",
+      "resource/exml/infoBtn.exml",
+      "resource/exml/betBtnR.exml",
+      "resource/exml/betBtnG.exml",
+      "resource/exml/betBtnB.exml",
+      "resource/exml/betBtnP.exml",
+      "resource/exml/betBtnY.exml",
+      "resource/exml/slotBtn.exml",
+      "resource/exml/title.exml",
+      "resource/exml/BalanceAndBetting.exml",
+      "resource/exml/infoTab.exml",
+      "resource/exml/GamePanel.exml",
+      "resource/exml/Info.exml",
+      "resource/exml/MyGroup.exml"
+    ]
+}

@@ -1,0 +1,7 @@
+{"file":"sloticon.png","frames":{
+"cherry":{"x":6,"y":6,"w":256,"h":256,"offX":0,"offY":0,"sourceW":256,"sourceH":256},
+"diamond":{"x":6,"y":776,"w":256,"h":182,"offX":0,"offY":37,"sourceW":256,"sourceH":256},
+"grape":{"x":274,"y":274,"w":178,"h":256,"offX":39,"offY":0,"sourceW":256,"sourceH":256},
+"heart":{"x":6,"y":536,"w":256,"h":228,"offX":0,"offY":14,"sourceW":256,"sourceH":256},
+"orange":{"x":274,"y":6,"w":212,"h":256,"offX":22,"offY":0,"sourceW":256,"sourceH":256},
+"seven":{"x":6,"y":274,"w":256,"h":250,"offX":0,"offY":3,"sourceW":256,"sourceH":256}}}

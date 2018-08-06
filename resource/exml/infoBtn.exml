@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<e:Skin class="skins.infoSkin" states="up,down,disabled" minHeight="100" minWidth="100" xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%"  alpha.disabled="0.5" source="resource/exml/image/information-button.png"/> 
+</e:Skin>

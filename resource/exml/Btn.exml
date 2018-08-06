@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui">
+<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+             source="resource/exml/image/buttonWrap1.png" alpha.down = "0.8"/>
+ <!-- 要有 id="labelDisplay" 才可以從父元素去定義子元素字串內容-->
+ <e:Label size="20" id="labelDisplay" fontFamily="Microsoft Yahei"   width="100%" height="100%"
+                             textColor="0xFFCC22" textColor.down="0xffffff" 
+                             verticalAlign="middle" textAlign="center"/>
+ <e:Image id="iconDisplay" width="100%" height="100%"  horizontalCenter="0" verticalCenter="0"/> 
+</e:Skin>
