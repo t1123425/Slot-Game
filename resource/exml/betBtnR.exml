@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.betBtnRSkin" states="up,down,disabled" minHeight="50" minWidth="50" maxWidth="75" maxHeight="75" xmlns:e="http://ns.egret.com/eui">
+    <e:Image  width="100%" height="100%"  alpha.disabled="0.5"
+             source="resource/exml/image/betBtnR.png"
+             source.down="resource/exml/image/betBtnDown.png" 
+             alpha.down = "0.8"/>
+    <e:Label size="25" id="labelDisplay" fontFamily="Microsoft Yahei"   
+    width="100%" height="100%" textColor="0xffffff" top="20" textAlign="center"/>
+</e:Skin>
