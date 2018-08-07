@@ -5,7 +5,7 @@
 		"name":"loading"
 	},
 	{
-		"keys":"gameBg,slotIconMap,slotTitle,slotBorder,slotIcon,coinImg,coinMap,cash,firework,sun,jellyFish,bounsBg",
+		"keys":"gameBg,slotIconMap,slotTitle,slotBorder,slotIcon,coinImg,coinMap,cash,firework,bounsBg",
 		"name":"preload"
 	}],
 	"resources":[
@@ -58,16 +58,6 @@
 		"name":"firework",
 		"type":"json",
 		"url":"assets/fireworks.json"
-	},
-	{
-		"name":"sun",
-		"type":"json",
-		"url":"assets/sun.json"
-	},
-	{
-		"name":"jellyFish",
-		"type":"json",
-		"url":"assets/jellyfish.json"
 	},
 	{
 		"name":"bounsBg",
