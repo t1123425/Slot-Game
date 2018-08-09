@@ -5,7 +5,7 @@
 		"name":"loading"
 	},
 	{
-		"keys":"gameBg,slotIconMap,slotTitle,slotBorder,slotIcon,coinImg,coinMap,cash,firework,bounsBg",
+		"keys":"gameBg,slotIconMap,slotIcon,slotItem,slotItemMap,coinImg,coinMap,firework",
 		"name":"preload"
 	}],
 	"resources":[
@@ -20,16 +20,6 @@
 		"url":"assets/Slot_main.jpg"
 	},
 	{
-		"name":"slotTitle",
-		"type":"image",
-		"url":"assets/slotTitle.jpg"
-	},
-	{
-		"name":"slotBorder",
-		"type":"image",
-		"url":"assets/slotBorder.png"
-	},
-	{
 		"name":"slotIcon",
 		"type":"image",
 		"url":"assets/sloticon.png"
@@ -38,6 +28,16 @@
 		"name":"slotIconMap",
 		"type":"json",
 		"url":"assets/sloticon.json"
+	},
+	{
+		"name":"slotItem",
+		"type":"image",
+		"url":"assets/slotItem.png"
+	},
+	{
+		"name":"slotItemMap",
+		"type":"json",
+		"url":"assets/slotItem.json"
 	},
 	{
 		"name":"coinImg",
@@ -50,18 +50,8 @@
 		"url":"assets/coinSpin.json"
 	},
 	{
-		"name":"cash",
-		"type":"image",
-		"url":"assets/cash.png"
-	},
-	{
 		"name":"firework",
 		"type":"json",
 		"url":"assets/fireworks.json"
-	},
-	{
-		"name":"bounsBg",
-		"type":"image",
-		"url":"assets/bounsBg.png"
 	}]
 }

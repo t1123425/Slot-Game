@@ -1,0 +1,5 @@
+{"file":"slotItem.png","frames":{
+"bounsBg":{"x":656,"y":383,"w":298,"h":177,"offX":3,"offY":0,"sourceW":303,"sourceH":180},
+"slotBorder":{"x":0,"y":0,"w":1000,"h":377,"offX":0,"offY":0,"sourceW":1000,"sourceH":377},
+"slotTitle":{"x":0,"y":383,"w":650,"h":419,"offX":0,"offY":1,"sourceW":650,"sourceH":421},
+"cash":{"x":656,"y":566,"w":128,"h":74,"offX":0,"offY":27,"sourceW":128,"sourceH":128}}}
